@@ -1,0 +1,51 @@
+# Data (subject data, slices, connectivity caches, NIfTI)
+data/
+subjects.txt
+*.nii.gz
+*.nii
+*.npy
+*.npz
+*.pkl
+
+# Results and logs
+results/
+results*/
+logs/
+*.log
+
+# Local one-off scripts
+run_abide_saliency_regen.sh
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.h5
+*.keras
+pretrained_weights/
+
+# Label tables shipped with the code
+!src/explain/labels/*.csv

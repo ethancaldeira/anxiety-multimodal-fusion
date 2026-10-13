@@ -1,0 +1,19 @@
+# Pinned versions used for the thesis results (Python 3.12).
+
+# Models, attribution and fusion
+tensorflow==2.20.0
+keras==3.12.0
+numpy==2.2.5
+pandas==2.3.3
+scikit-learn==1.7.2
+tf-keras-vis==0.8.7       # SmoothGrad (explain/methods.py)
+
+# Brain volumes and figures
+nibabel==5.4.2
+nilearn==0.13.1
+matplotlib==3.10.7
+pillow==12.0.0
+
+# Optional LLM report (src/llm_report.py)
+openai==3.24.0
+brotli==1.2.0             # response decoding for the openai HTTP client
